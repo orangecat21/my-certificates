@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url("images/background.png");
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.title {
+	color: white;
+	font-size: 36px;
+	padding: 20px;
+}
+
+.section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	align-items: center;
+	justify-content: center;
+	max-width: 1000px;
+}
+
+
+.image_link {
+	display: block;
+}
+
+.certificate {
+	padding: 10px;
+	width: 100%;
+}
+
+.certificate_landscape {
+	padding: 10px;
+	width: 100%;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
